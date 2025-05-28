@@ -1,0 +1,49 @@
+# === JAVA ===
+*.class
+*.war
+*.ear
+*.log
+
+# === ECLIPSE ===
+/.classpath
+/.project
+/.settings/
+/bin/
+/target/
+
+# === MAVEN ===
+/pom.xml.tag
+/pom.xml.releaseBackup
+/pom.xml.versionsBackup
+/logs/
+/release.properties
+/target/
+/dependency-reduced-pom.xml
+
+# === GRADLE (caso use) ===
+.gradle/
+/build/
+/out/
+
+# === MAC / WINDOWS ===
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# === IDE ===
+.idea/
+*.iml
+*.iws
+
+# === TEMP ===
+*.tmp
+*.bak
+*.swp
+
+# === JAVA SPECIFIC CONFIG ===
+*.log
+hs_err_pid*
+
+# === USER CONFIG ===
+*.userprefs
